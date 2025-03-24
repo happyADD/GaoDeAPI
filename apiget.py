@@ -4,8 +4,8 @@ import requests
 import xmltodict
 import time
 
-my_api_key = '00f41521d8354a9e6efdd13861111c91'
-sub_api_key = ''
+my_api_key = ''
+
 
 def ip_location(api_key=my_api_key, ip=''):
     url = f"https://restapi.amap.com/v5/ip?key={api_key}&keywords=北京"
